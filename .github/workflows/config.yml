@@ -4,10 +4,10 @@ name: Earnings Trade Automation
 on:
   schedule:
     # 9:40 AM ET (Eastern Time)
-    - cron: '40 13 * * 1-5' # 9:40 AM ET during EST (UTC-5)
+    # - cron: '40 13 * * 1-5' # 9:40 AM ET during EST (UTC-5)
     - cron: '40 14 * * 1-5' # 9:40 AM ET during EDT (UTC-4)
     # 3:35 PM ET (Eastern Time)
-    - cron: '35 19 * * 1-5' # 3:35 PM ET during EST (UTC-5)
+    # - cron: '35 19 * * 1-5' # 3:35 PM ET during EST (UTC-5)
     - cron: '35 20 * * 1-5' # 3:35 PM ET during EDT (UTC-4)
 
 jobs:

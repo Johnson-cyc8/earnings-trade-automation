@@ -18,7 +18,7 @@ load_dotenv()
 
 API_KEY = os.environ.get("APCA_API_KEY_ID")
 API_SECRET = os.environ.get("APCA_API_SECRET_KEY")
-PAPER = os.environ.get("ALPACA_PAPER", "true").lower() == "false"
+PAPER = os.environ.get("ALPACA_PAPER", "false").lower() == "false"
 
 
 def init_alpaca_client():

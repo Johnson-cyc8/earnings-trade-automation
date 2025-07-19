@@ -17,6 +17,7 @@ jobs:
       APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
       APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
       GOOGLE_SCRIPT_URL: ${{ secrets.GOOGLE_SCRIPT_URL }}
+      APCA_PAPER: ${{ secrets.APCA_PAPER }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
